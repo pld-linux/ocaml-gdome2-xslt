@@ -8,6 +8,7 @@ Group:		Libraries
 Vendor:		Claudio Sacerdoti Coen <sacerdot@cs.unibo.it>
 URL:		http://www.cs.unibo.it/helm/gdome_xslt/index.html
 Source0:	http://www.cs.unibo.it/helm/gdome_xslt/source/libxslt-ocaml-%{version}.tar.gz
+# Source0-md5:	e0d07155ae05838b7b43eb93189fe3a2
 BuildRequires:	libxslt-devel
 BuildRequires:	ocaml-findlib
 BuildRequires:	ocaml-gdome2-devel
