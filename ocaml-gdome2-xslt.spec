@@ -4,16 +4,17 @@ Name:		ocaml-gdome2-xslt
 Version:	0.0.1
 Release:	2
 License:	LGPL
-Group:		Libraries
 Vendor:		Claudio Sacerdoti Coen <sacerdot@cs.unibo.it>
+Group:		Libraries
+#Source0Download: http://helm.cs.unibo.it/gdome_xslt/
 Source0:	http://helm.cs.unibo.it/gdome_xslt/dist/libxslt-ocaml-%{version}.tar.gz
 # Source0-md5:	801263a8293439f7716b7ac44561547d
-URL:		http://helm.cs.unibo.it/gdome_xslt/index.html
+URL:		http://helm.cs.unibo.it/gdome_xslt/
+BuildRequires:	autoconf
 BuildRequires:	libxslt-devel
 BuildRequires:	ocaml-findlib
 BuildRequires:	ocaml-gdome2-devel
 BuildRequires:	ocaml >= 3.04-7
-BuildRequires:	autoconf
 %requires_eq	ocaml-runtime
 %requires_eq	ocaml-gdome2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
