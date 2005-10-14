@@ -2,7 +2,7 @@ Summary:	gdome2-xslt binding for OCaml
 Summary(pl):	Wi±zania gdome2-xslt dla OCamla
 Name:		ocaml-gdome2-xslt
 Version:	0.0.1
-Release:	2
+Release:	3
 License:	LGPL
 Vendor:		Claudio Sacerdoti Coen <sacerdot@cs.unibo.it>
 Group:		Libraries
