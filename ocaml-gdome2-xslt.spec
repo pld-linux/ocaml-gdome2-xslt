@@ -58,7 +58,7 @@ Pakiet ten zawiera pliki niezbêdne do tworzenia programów u¿ywaj±cych
 tej biblioteki.
 
 %prep
-%setup -q -n libxslt-ocaml-%{version}
+%setup -q -n gdome2-xslt-%{version}
 
 %build
 cd C/gdome_xslt
