@@ -1,5 +1,5 @@
 Summary:	gdome2-xslt binding for OCaml
-Summary(pl):	Wi眤ania gdome2-xslt dla OCamla
+Summary(pl.UTF-8):   Wi膮zania gdome2-xslt dla OCamla
 Name:		ocaml-gdome2-xslt
 Version:	0.0.6
 Release:	1
@@ -26,17 +26,17 @@ underlying implementation is based on libxml, gdome2 and libxslt.
 This package contains files needed to run bytecode executables using
 this library.
 
-%description -l pl
+%description -l pl.UTF-8
 Biblioteka ta dostarcza wysoko-poziomowe API do przetwarzania
-dokument體 przy u縴ciu XSLT dla OCamla. Implementacja bazowana jest na
+dokument贸w przy u偶yciu XSLT dla OCamla. Implementacja bazowana jest na
 libxml, gdome2 oraz libxslt.
 
-Pakiet ten zawiera binaria potrzebne do uruchamiania program體
-u縴waj眂ych tej biblioteki.
+Pakiet ten zawiera binaria potrzebne do uruchamiania program贸w
+u偶ywaj膮cych tej biblioteki.
 
 %package devel
 Summary:	gdome2-xslt binding for OCaml - development part
-Summary(pl):	Wi眤ania gdome2-xslt dla OCamla - cze舵 programistyczna
+Summary(pl.UTF-8):   Wi膮zania gdome2-xslt dla OCamla - cze艣膰 programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
@@ -49,12 +49,12 @@ underlying implementation is based on libxml, gdome2 and libxslt.
 This package contains files needed to develop OCaml programs using
 this library.
 
-%description devel -l pl
+%description devel -l pl.UTF-8
 Biblioteka ta dostarcza wysoko-poziomowe API do przetwarzania
-dokument體 przy u縴ciu XSLT dla OCamla. Implementacja bazowana jest na
+dokument贸w przy u偶yciu XSLT dla OCamla. Implementacja bazowana jest na
 libxml, gdome2 oraz libxslt.
 
-Pakiet ten zawiera pliki niezb阣ne do tworzenia program體 u縴waj眂ych
+Pakiet ten zawiera pliki niezb臋dne do tworzenia program贸w u偶ywaj膮cych
 tej biblioteki.
 
 %prep
