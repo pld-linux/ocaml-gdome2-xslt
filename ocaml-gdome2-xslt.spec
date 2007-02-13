@@ -1,5 +1,5 @@
 Summary:	gdome2-xslt binding for OCaml
-Summary(pl.UTF-8):   Wiązania gdome2-xslt dla OCamla
+Summary(pl.UTF-8):	Wiązania gdome2-xslt dla OCamla
 Name:		ocaml-gdome2-xslt
 Version:	0.0.6
 Release:	1
@@ -36,7 +36,7 @@ używających tej biblioteki.
 
 %package devel
 Summary:	gdome2-xslt binding for OCaml - development part
-Summary(pl.UTF-8):   Wiązania gdome2-xslt dla OCamla - cześć programistyczna
+Summary(pl.UTF-8):	Wiązania gdome2-xslt dla OCamla - cześć programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
